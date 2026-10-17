@@ -1,94 +1,119 @@
 # Paradise Supply Chain Holding (`IranPSC`)
 
-**Engineering the Digital Infrastructure, Distributed Systems, and Virtual Economy of the [Paradise Supply Chain](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc) & [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com) Ecosystem.**
+**Architecting the Distributed Infrastructure, Spatial Computing Engine, Decentralized Economy, and AI Systems of the [Paradise Supply Chain](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc) & [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com) Ecosystem.**
 
-> **Organization Overview:** **Paradise Supply Chain Holding** architects, builds, and operates high-concurrency digital platforms, decentralized governance protocols, 3D spatial marketplaces, unified identity systems (`SSO`), and AI-driven virtual environments powering **[MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com)** (the Iranian National Metaverse) and the broader **Behesht Supply Chain** ecosystem.
+> **Executive Summary:** **Paradise Supply Chain Holding (`IranPSC`)** is a multidisciplinary technology and research organization operating **60+ engineering repositories**. We design, build, and scale high-concurrency distributed microservices, real-time 3D virtual world bridges, Layer-1 decentralized finance (`DeFi`) and governance protocols, cognitive AI agents, geospatial mapping engines (`GIS`), and zero-trust identity infrastructure powering **[MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com)** (the Iranian National Metaverse) and the broader **Behesht Supply Chain** digital economy.
 
-## Technology Stack & Engineering Domains
+## 1. Multidisciplinary Sciences & R&D Domains
 
-| Engineering Domain | Core Technologies, Frameworks & Protocols |
-| :--- | :--- |
-| **Backend & Distributed Systems** | `Go (Golang)` · `gRPC` · `WebSocket` · `PHP` · `Laravel` · `RESTful APIs` |
-| **Frontend & Interactive Web** | `TypeScript` · `Next.js (SSR)` · `React.js` · `Laravel Livewire` · `Blade` · `Tailwind / Design System` |
-| **3D Spatial & Virtual Worlds** | `Unity 3D Dedicated Servers` · `GLTF 3D Asset Pipeline` · `GIS & Spatial Mapping` · `UI Studio (UGC)` |
-| **Blockchain & Web3 Governance** | `Solidity` · `Foundry` · `Smart Contracts` · `PSC & PSD Governance Tokens` |
-| **Data & Identity Infrastructure** | `Distributed MongoDB Clusters` · `Horizontal Sharding` · `Encrypted Citizen Pods` · `Centralized SSO` |
-| **DevOps, Quality & Telemetry** | `Sentry Monitoring` · `CI/CD Pipelines` · `Automated Schema Versioning` · `Open Source (MIT / AGPL-3.0)` |
+Our engineering organization integrates advanced computer science disciplines, applied mathematics, and systems engineering to solve complex challenges in large-scale virtual worlds and digital supply chains:
 
-## Core Ecosystem Pillars
+| Scientific & Engineering Discipline | Core Theoretical & Applied Focus Areas | Ecosystem Implementation & Impact |
+| :--- | :--- | :--- |
+| **Distributed Systems & High-Concurrency Computing** | Microservices decomposition, high-throughput inter-process communication, eventual & strong consistency models, fault-tolerant state machines, and horizontal cluster partitioning. | Migration from monolithic architectures to distributed `Go` microservices handling millions of concurrent citizen states across [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice). |
+| **Spatial Computing, 3D Graphics & Real-Time Simulation** | 3D scene graph serialization (`GLTF`), real-time physics synchronization, dedicated simulation server orchestration, spatial indexing, and cross-platform VR/mobile/desktop rendering. | Seamless state handoffs between web portals and dedicated `Unity 3D` servers via the **VOD Entry v1.0** standard and the [3D RGB Marketplace](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2F3DMeta-Shop-Object-3D). |
+| **Artificial Intelligence, Cognitive Agents & NLP** | Autonomous & semi-intelligent agent architectures, behavioral state trees, natural language interaction, and AI-augmented software engineering workflows. | Cognitive virtual citizens in `Metaverse-Rang-Semi-intelligent-NPC` (`AgentAPI`) and automated `Gemini AI` code review and issue triage across CI/CD pipelines. |
+| **Cryptoeconomics, DeFi Mathematics & Game Theory** | **Constant Function Market Makers (`CFMM`)**, automated liquidity provisioning, algorithmic tokenomics, and decentralized autonomous governance (`DAO`) voting mechanics. | Dual-token virtual economy (`PSC` & `PSD`), Layer-1 CFMM liquidity modules (`Metaverse-Rang-L1-cfmm-liquidity`), and [Foundry smart contracts](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-PSC-Governance-Coin). |
+| **Geospatial Information Science (`GIS`) & Cartography** | Spatial coordinate systems, polygon parceling for virtual/physical land (`VOD`), interactive vector/raster map tile rendering, and location-based service (`LBS`) discovery. | Virtual real estate mapping in [Metaverse-Rang-Geographical-Maps](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Geographical-Maps), national mapping engines (`Meli-MAP`), and geolocation-enabled academy discovery (`AmozeshgahYab`). |
+| **Cryptography, Zero-Trust Identity & Data Security** | Cryptographic session tokens, role-based & attribute-based access control (`RBAC`/`ABAC`), tenant data isolation, and field-level encryption at rest and in transit. | Centralized [Paradise Supply Chain SSO](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go), 60-second ephemeral `VOD` entry tickets, and **Encrypted Citizen Pods** in Database Architecture V3. |
+| **Human-Computer Interaction (`HCI`) & Design Systems** | Event-driven & component-driven UI engineering, User-Generated Content (`UGC`) interface compilation, Core Web Vitals (`LCP`/`CLS`) optimization, and multi-locale internationalization (`i18n`). | Modular **UI Studio** enabling citizen-created skins/layouts and high-speed SSR web portals in [Metaverse-Rang-Front-NextJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-NextJS). |
 
-### 1. [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com) — Intelligent 3D Parallel World
+## 2. Programming Languages, Compilers & Runtimes Matrix
 
-**[MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com)** is an interactive, persistent 3D parallel world that converges spatial computing, artificial intelligence, virtual real estate (**VOD**), digital academies, and decentralized governance:
+We employ a polyglot engineering strategy, selecting each language for its mathematical safety, concurrency model, or rendering performance:
 
-* **High-Performance Web Portals:** Built with modular **Next.js (`TypeScript`)** and **React.js**, featuring a unified multi-theme Design System, SSR caching proxies, global Skeleton loading states, `GLTF` 3D model inspection, and real-time **Sentry** telemetry.
-* **Event-Driven UI Studio (`UGC`):** Decouples visual presentation layers from core networking logic, empowering citizens to design, customize, and publish skins, icons, and layouts within a user-generated content cycle.
-* **Cross-Platform 3D Bridge (`VOD Entry Standard`):** Orchestrates seamless state handoffs between React/Next.js clients, **Go** microservices, and dedicated **Unity** game servers via **gRPC**, ephemeral 60-second security tickets, and persistent **WebSocket** channels.
-
-### 2. [3D RGB (3DMeta-Shop)](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2F3DMeta-Shop-Object-3D) — 3D Asset Marketplace
-
-A dedicated marketplace platform for trading, previewing, and distributing 3D digital objects and `GLTF` spatial assets across the MetaRang virtual economy.
-
-### 3. [Paradise Supply Chain SSO](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go) — Unified Identity & Access Management
-
-Centralized Single Sign-On (`SSO`) and citizen authentication (`hm-` Citizen IDs) engineered in **Go** and **TypeScript**, securing cross-platform sessions, role-based permissions, and cryptographic identity verification across all holding services.
-
-### 4. [Decentralized Governance \& Web3 (PSC / PSD)](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-PSC-Governance-Coin)
-
-Smart contract infrastructure developed with **Solidity** and **Foundry**, powering decentralized governance tokens (`PSC`), virtual land transactions, and transparent on-chain economic policies.
-
-## Featured Repositories & Ecosystem Matrix
-
-| Repository | Domain & Role | Primary Stack | License |
+| Language / Runtime | Primary Engineering Role | Key Technical Capabilities Leveraged | Flagship Repositories |
 | :--- | :--- | :--- | :--- |
-| [Metaverse-Rang-Front-NextJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-NextJS) | Next-generation SSR web platform, Design System, and multi-locale portal for [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com) | `TypeScript` · `Next.js` | `MIT` |
-| [Metaverse-Rang-Front-ReactJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-ReactJS) | Interactive frontend client for [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com) virtual world services and citizen interactions | `JavaScript` · `React.js` | `MIT` |
-| [Metaverse-Rang-Microservice](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice) | Core high-concurrency microservices backend (migrated from Laravel monolith to Go) | `Go` · `gRPC` | `MIT` |
-| [SSO-Paradise-Supply-Chain-Go](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go) | Unified Single Sign-On (`SSO`) and authentication backend for the Paradise Supply Chain ecosystem | `Go` | `AGPL-3.0` |
-| [SSO-Paradise-Supply-Chain-Go-Front](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go-Front) | Frontend authentication portal and session management interface for Paradise Supply Chain SSO | `TypeScript` | `MIT` |
-| [Metaverse-Rang-PSC-Governance-Coin](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-PSC-Governance-Coin) | Decentralized governance token (`PSC`) smart contracts and testing suite built with Foundry | `Solidity` · `Foundry` | `MIT` |
-| [3DMeta-Shop-Object-3D](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2F3DMeta-Shop-Object-3D) | **3D RGB** — Backend API and management platform for the 3D file and spatial asset marketplace | `PHP` · `Laravel` | `MIT` |
-| [3DMeta-Shop-Object-3D-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2F3DMeta-Shop-Object-3D-Frontend) | Frontend web interface and interactive 3D asset viewer for the **3D RGB** marketplace | `TypeScript` | `MIT` |
-| [Metaverse-Rang-Geographical-Maps](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Geographical-Maps) | Spatial mapping, virtual land coordinates, and GIS integration for [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com) properties | `GIS` · `Web` | `Public` |
-| [Metaverse-Rang-Microservice-Admin-Panel](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice-Admin-Panel) | Administrative dashboard and operational control center for MetaRang microservices | `PHP` · `Laravel` | `MIT` |
-| [faqhub-livewire](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2Ffaqhub-livewire) | Community-driven Q&A and knowledge-sharing platform powering ecosystem discussions | `Blade` · `Livewire` | `Public` |
-| [Metaverse-Rang-Microservice-Api-laravel](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice-Api-laravel) | Legacy microservice API layer (archived following migration to [Go microservices](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice)) | `PHP` · `Laravel` | `Archive` |
+| **`Go (Golang)`** | Core Microservices & Identity (`SSO`) | Goroutine concurrency, low-latency memory footprint, strongly typed `gRPC` services, high-throughput `WebSocket` hubs, and cryptographic token validation. | [Metaverse-Rang-Microservice](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice) · [SSO-Paradise-Supply-Chain-Go](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go) |
+| **`TypeScript`** | Enterprise Web Portals, SSR & 3D Viewers | Strict static type-checking, scalable component contracts, multi-theme Design Systems, `GLTF` 3D model loaders, and modular SDK architecture. | [Metaverse-Rang-Front-NextJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-NextJS) · [3DMeta-Shop-Object-3D-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2F3DMeta-Shop-Object-3D-Frontend) · [SSO-Paradise-Supply-Chain-Go-Front](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go-Front) |
+| **`Solidity (EVM)`** | Blockchain Smart Contracts & DeFi | On-chain governance logic (`PSC`), token standards, automated market maker (`CFMM`) liquidity pools, deterministic execution, and gas-optimized storage. | [Metaverse-Rang-PSC-Governance-Coin](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-PSC-Governance-Coin) · `Metaverse-Rang-L1-cfmm-liquidity` · `Metaverse-Rang-BlockChain-ABI` |
+| **`JavaScript (ES6+)`** | Interactive Web Clients & Dynamic UI | Asynchronous event loops, real-time DOM updates, interactive 2D/3D canvas rendering, and client-side state orchestration. | [Metaverse-Rang-Front-ReactJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-ReactJS) · [Metaverse-Rang-Geographical-Maps](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Geographical-Maps) |
+| **`PHP (8.x)`** | Marketplace APIs, Admin Control & Community | Rapid domain modeling, enterprise administrative panels, 3D file repository management, and reactive full-stack community platforms. | [3DMeta-Shop-Object-3D](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2F3DMeta-Shop-Object-3D) · [Metaverse-Rang-Microservice-Admin-Panel](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice-Admin-Panel) · [faqhub-livewire](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2Ffaqhub-livewire) |
+| **`C# / Unity Runtime`** | 3D Parallel World & Spatial Simulation | Dedicated 3D server instantiation, real-time citizen avatar physics, virtual property (`VOD`) rendering, and bidirectional socket telemetry. | [MetaRang 3D Core](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com) (Connected via `VOD Entry v1.0` Bridge) |
+| **`Blade / HTML5 / CSS3`** | Server-Rendered Views & Design Tokens | Semantic markup, responsive grid layouts, dark/light theme tokens, accessible UI primitives, and global Skeleton loading templates. | [faqhub-livewire](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2Ffaqhub-livewire) · `BerelianHalls` |
 
-## System Architecture & Technical Highlights
+## 3. Comprehensive Technology Stack & Infrastructure Matrix
 
-### Distributed Microservices & Monolith-to-Go Migration
+| Architectural Layer | Technologies, Frameworks & Protocols | Production Implementation Details |
+| :--- | :--- | :--- |
+| **Microservices & Backend Frameworks** | `Go Microservices` · `Laravel Framework` · `RESTful APIs` · `AgentAPI` | Decoupled domain services for citizen identity (`hm-` IDs), dynasty/family trees, virtual real estate (`VOD`), banking/wallets, academy management, and semi-intelligent NPCs. |
+| **Inter-Service & Real-Time Protocols** | `gRPC (HTTP/2 & Protobuf)` · `Secure WebSockets (WSS)` · `Next.js Server Proxy` · `Web3 JSON-RPC` | Sub-millisecond internal service RPCs via `gRPC`; persistent full-duplex `WebSocket` streams for live 3D world synchronization and ephemeral 60-second security handshakes. |
+| **Frontend & Reactive UI Engineering** | `Next.js (SSR / ISR)` · `React.js` · `Laravel Livewire` · `UI Studio (Event-Driven UGC)` · `Skeleton UI` | Server-side rendering and media caching proxies optimizing Largest Contentful Paint (`LCP`); global Skeleton loading infrastructure; decoupled View vs. Network layers for citizen-built UI skins. |
+| **3D Graphics, Spatial & GIS Engines** | `Unity 3D Dedicated Server` · `GLTF / GLB 3D Pipeline` · `Interactive GIS Mapping` · `Meli-MAP Engine` | Browser-based `GLTF` 3D object inspection in **3D RGB**; coordinate-based land pricing, color-coded parcel status, and spatial academy discovery. |
+| **Blockchain, Web3 & DeFi Tooling** | `Foundry (Forge / Cast / Anvil)` · `Solidity` · `CFMM Liquidity Protocol` · `EVM ABIs` · `PSC & PSD Tokens` | Smart contract compilation, fuzz testing, and deployment via `Foundry`; Layer-1 Constant Function Market Maker (`CFMM`) liquidity pools; dual-currency (`Rial` + `PSC`) land bidding. |
+| **Distributed Database Architecture (V3)** | `Distributed MongoDB Clusters` · `Horizontal Sharding` · `Encrypted Citizen Pods` · `Schema Versioning` | Replaces per-citizen isolated databases with horizontally sharded MongoDB collections, logical multi-tenant isolation, on-demand schema provisioning, and separated public vs. encrypted citizen pods. |
+| **Identity, Security & Access Control** | `Paradise Supply Chain SSO` · `Ephemeral 60s Entry Tickets` · `Cryptographic Session Validation` · `RBAC` | Unified authentication across all holding platforms; pre-entry verification of account security, property build status, permission tiers, and wallet balances before 3D world instantiation. |
+| **DevOps, Observability & AI QA** | `GitHub Actions CI/CD` · `Sentry Telemetry` · `Gemini AI Automated Review & Triage` · `Technical SEO & Schema` | Automated build/release pipelines; real-time frontend/backend exception tracking via `Sentry`; AI-assisted Pull Request review and issue labeling; automated Sitemap and structured data (`JSON-LD`) optimization. |
 
-To support real-time spatial interactions and high-throughput transactions across **[MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com)**, our engineering team transitioned the core platform from a legacy Laravel monolith ([Metaverse-Rang-Microservice-Api-laravel](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice-Api-laravel)) to a distributed **Go** microservices architecture ([Metaverse-Rang-Microservice](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice)):
+## 4. Complete Ecosystem & Repository Matrix
 
-* **Inter-Service Communication:** Low-latency **gRPC** pipelines and event-driven messaging between authentication, property management (`VOD`), economy, and 3D simulation nodes.
-* **Real-Time 3D Synchronization:** Secure **WebSocket** channels and 60-second ephemeral session tokens validating citizen permissions, asset ownership, and wallet balances prior to instantiating **Unity** 3D property environments.
+Our organization maintains **61+ repositories** spanning core infrastructure, open-source templates, smart contracts, 3D marketplaces, and community platforms. Below is the categorized matrix of our flagship repositories:
 
-### Database Architecture V3 — Encrypted Citizen Pods
+| Repository | Architectural Domain | Technical Scope & Key Features | Primary Stack | License |
+| :--- | :--- | :--- | :--- | :--- |
+| [Metaverse-Rang-Front-NextJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-NextJS) | Core Web Portal (`SSR`) | Next-generation [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com) platform featuring unified Light/Dark Design System, global Skeleton states, `GLTF` 3D viewer, multi-locale routing, and SSR video/SVG caching proxies. | `TypeScript` · `Next.js` · `React` | `MIT` |
+| [Metaverse-Rang-Microservice](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice) | Distributed Backend | High-concurrency microservices core (migrated from Laravel monolith to Go), powering `gRPC` inter-service pipelines, `WebSocket` hubs, and the `VOD Entry v1.0` Unity 3D bridge. | `Go` · `gRPC` · `WebSocket` · `MongoDB` | `MIT` |
+| [SSO-Paradise-Supply-Chain-Go](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go) | Identity & Security (`SSO`) | Centralized Single Sign-On backend managing `hm-` citizen identities, cryptographic token issuance, and cross-domain access control for the Paradise Supply Chain ecosystem. | `Go` · `Cryptography` · `REST / gRPC` | `AGPL-3.0` |
+| [SSO-Paradise-Supply-Chain-Go-Front](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go-Front) | Identity Portal (`Frontend`) | Unified authentication user interface, multi-factor session management, and secure OAuth/SSO redirect workflows. | `TypeScript` · `Modern Web UI` | `MIT` |
+| [Metaverse-Rang-PSC-Governance-Coin](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-PSC-Governance-Coin) | Blockchain & Governance | Decentralized governance token (`PSC`) smart contracts, on-chain voting mechanics, and automated Solidity test suites built with Foundry. | `Solidity` · `Foundry` · `EVM` | `MIT` |
+| **`Metaverse-Rang-L1-cfmm-liquidity`** | DeFi & Liquidity (`L1`) | Layer-1 Constant Function Market Maker (`CFMM`) smart contracts and automated liquidity pool algorithms for decentralized asset exchange. | `Solidity` · `DeFi Math` · `Web3` | `Open Source` |
+| **`Metaverse-Rang-BlockChain-ABI`** | Web3 Integration | Standardized Application Binary Interfaces (`ABI`), contract artifacts, and type definitions for cross-service blockchain communication. | `JSON ABI` · `TypeScript` · `Web3` | `Open Source` |
+| **`Metaverse-Rang-Semi-intelligent-NPC`** | Artificial Intelligence | Autonomous and semi-intelligent Non-Player Character (`NPC`) cognitive engine and `AgentAPI` for interactive virtual citizens inside MetaRang. | `AI Agents` · `AgentAPI` · `Backend` | `Open Source` |
+| [3DMeta-Shop-Object-3D](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2F3DMeta-Shop-Object-3D) | 3D Asset Marketplace | **3D RGB** backend platform for uploading, licensing, categorizing, and trading 3D models and spatial assets across the virtual economy. | `PHP` · `Laravel` · `REST API` | `MIT` |
+| [3DMeta-Shop-Object-3D-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2F3DMeta-Shop-Object-3D-Frontend) | 3D Marketplace Client | Interactive web storefront and real-time browser-based 3D object inspection client for the **3D RGB** marketplace. | `TypeScript` · `3D Web Viewer` | `MIT` |
+| [Metaverse-Rang-Front-ReactJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-ReactJS) | Interactive Web Client | Modular React.js application providing citizen dashboards, virtual land (`VOD`) trading workflows, dynasty management, and interactive 2D/3D portals. | `JavaScript` · `React.js` | `MIT` |
+| [Metaverse-Rang-Geographical-Maps](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Geographical-Maps) | Spatial & GIS Mapping | Geospatial coordinate engine, interactive virtual land parcels, and real-time property status visualization for [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com). | `GIS` · `Spatial Web` · `JavaScript` | `Public` |
+| **`Meli-MAP-backend` & `Meli-MAP-front`** | National GIS Engine | Full-stack geospatial mapping infrastructure (`Meli-MAP`) providing tile services, spatial queries, and interactive map interfaces. | `GIS Backend` · `Frontend Web` | `Open Source` |
+| **`AmozeshgahYab-Front`** | EdTech & Geolocation | Geolocation-enabled educational center and academy discovery platform (`آموزشگاه‌یاب`) with interactive map pinpointing, course search, and `Sentry` telemetry. | `TypeScript` · `Maps API` · `Sentry` | `MIT` |
+| [Metaverse-Rang-Microservice-Admin-Panel](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice-Admin-Panel) | Operations & Control | Enterprise administrative dashboard for monitoring microservices health, citizen governance, content moderation, and economic metrics. | `PHP` · `Laravel` | `MIT` |
+| [faqhub-livewire](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2Ffaqhub-livewire) & **`FaqHub-Frontend`** | Community & Knowledge | Community-driven Q&A forum and documentation hub powered by Laravel Livewire and automated `Gemini AI` issue triage. | `PHP` · `Blade` · `Livewire` · `AI CI` | `Public` |
+| **`BerelianHalls`** | Virtual & Event Spaces | Digital platform and portal for commercial halls, virtual events, and exhibition spaces within the holding ecosystem. | `Web Platform` · `Multi-Locale` | `Open Source` |
+| [Metaverse-Rang-Microservice-Api-laravel](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice-Api-laravel) | Legacy Core (`Archive`) | First-generation monolithic API layer, preserved as an architectural reference following the migration to [Go microservices](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice). | `PHP` · `Laravel` | `Archive` |
 
-Our third-generation storage layer is engineered to host millions of concurrent citizens in **[MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com)** with minimal resource overhead:
+## 5. Deep-Dive Architectural Standards
 
-* **Distributed MongoDB Clusters:** Replaces isolated per-citizen databases with horizontally sharded collections and logical tenant isolation.
-* **Encrypted Citizen Pods:** Enforces strict separation between public profile metadata and cryptographically protected citizen records, paired with automated schema versioning and on-demand data provisioning.
+### A. Unified VOD Entry Standard (v1.0) — Tri-Layer 3D Bridge
+Our **Virtual Ownership Document (`VOD`) Entry Standard** defines the deterministic execution pipeline connecting web applications to real-time 3D simulation environments:
+* **Pre-Flight Security & State Validation:** Prior to loading any 3D environment, the **Go Microservice** layer validates account security status, property construction state, citizen access permissions, wallet balances (`PSC` / `Rial`), and active session locks.
+* **gRPC & Ephemeral 60-Second Tickets:** Upon validation, the backend coordinates with the dedicated **Unity 3D Server** over `gRPC` and issues a single-use cryptographic entry ticket valid for strictly **60 seconds**.
+* **Full-Duplex WebSocket Synchronization:** Once inside the 3D property, a secure `WebSocket` channel maintains real-time state parity for coin/score deductions, interactive object manipulation, and instant session revocation upon exit.
 
-### معرفی هلدینگ زنجیره تامین بهشت و متاورس رنگ (Persian Overview)
+### B. Database Architecture V3 — Encrypted Citizen Pods
+Designed to scale [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com) to millions of concurrent citizens while minimizing cluster memory and I/O overhead:
+* **Horizontally Sharded MongoDB Clusters:** Eliminates the resource overhead of isolated per-citizen databases in favor of partitioned, multi-tenant collections with logical isolation.
+* **Encrypted Citizen Pods:** Enforces strict architectural separation between public citizen metadata (avatars, levels, public roles such as *Journalist*, *Developer*, *Inspector*, *Merchant*, or *Lawyer*) and cryptographically encrypted private records.
+* **Dynamic Schema Versioning:** Supports zero-downtime migrations and lazy (on-demand) data structure initialization as citizens unlock new ecosystem capabilities.
 
-**هلدینگ زنجیره تامین بهشت ([Paradise Supply Chain Holding](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc))** بازوی فناوری، معماری نرم‌افزار و توسعه زیرساخت‌های دیجیتال اکوسیستم **[متاورس رنگ (MetaRang)](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com)** است. مخازن متن‌باز و مهندسی این سازمان شامل حوزه‌های زیر است:
+### C. Event-Driven & Component-Driven UI Studio (`UGC`)
+To prevent visual monotony and decouple rapid feature releases from UI regressions, [MetaRang](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com) implements a modular **UI Studio** architecture:
+* **Strict View-Network Decoupling:** Separates the visual presentation layer (`View`) from core networking and state logic (`Network & Core Logic`) using an event-driven pub/sub bus.
+* **Citizen-Generated Interfaces (`UGC`):** Enables developers and citizens to design, package, and publish custom skins, icon sets, and HUD layouts that plug directly into the platform without modifying underlying business logic.
 
-* **معماری میکروسرویس و سیستم‌های توزیع‌شده:** مهاجرت از ساختار یکپارچه به میکروسرویس‌های پرسرعت مبتنی بر `Go`، پروتکل `gRPC` و ارتباطات بلادرنگ `WebSocket` در مخزن [Metaverse-Rang-Microservice](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice).
-* **پلتفرم‌های وب و استودیوی رابط کاربری (`UI Studio`):** توسعه نسل جدید فرانت‌اند متارنگ با `Next.js` و `TypeScript` در مخزن [Metaverse-Rang-Front-NextJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-NextJS) و `React.js` در مخزن [Metaverse-Rang-Front-ReactJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-ReactJS) به همراه پشتیبانی از مدل‌های سه‌بعدی `GLTF` و معماری کامپوننت‌محور.
-* **احراز هویت یکپارچه (`SSO`):** سامانه مدیریت هویت و دسترسی یکپارچه شهروندان با بک‌اند `Go` در مخزن [SSO-Paradise-Supply-Chain-Go](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go) و فرانت‌اند `TypeScript` در مخزن [SSO-Paradise-Supply-Chain-Go-Front](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go-Front).
-* **بلاکچین و حاکمیت غیرمتمرکز:** قراردادهای هوشمند توکن حاکمیتی `PSC` مبتنی بر `Solidity` و `Foundry` در مخزن [Metaverse-Rang-PSC-Governance-Coin](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-PSC-Governance-Coin).
-* **بازار دارایی‌های سه‌بعدی (`3D RGB`) و نقشه‌های جغرافیایی:** پلتفرم فروشگاه فایل‌های سه‌بعدی در مخزن [3DMeta-Shop-Object-3D](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2F3DMeta-Shop-Object-3D) و زیرساخت نقشه‌های جغرافیایی متارنگ در مخزن [Metaverse-Rang-Geographical-Maps](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Geographical-Maps).
+## 6. نمای کلی علوم، زبان‌ها و معماری مهندسی (Persian Technical Overview)
 
-## Open Source & Community Contribution
+**هلدینگ زنجیره تامین بهشت ([Paradise Supply Chain Holding](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc))** با بیش از **۶۰ مخزن تخصصی و متن‌باز**، زیرساخت‌های کلان نرم‌افزاری، هوش مصنوعی، بلاکچین و رایانش فضایی اکوسیستم **[متاورس رنگ (MetaRang)](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com)** را مهندسی و راهبری می‌کند:
 
-We actively publish core libraries, frontend templates, smart contracts, and community platforms—such as [faqhub-livewire](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2Ffaqhub-livewire) and [Metaverse-Rang-Front-NextJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-NextJS)—under permissive open-source licenses (`MIT` and `AGPL-3.0`).
+| حوزه علمی و مهندسی | زبان‌ها، فریم‌ورک‌ها و پروتکل‌های کلیدی | دستاوردهای معماری و مخازن شاخص |
+| :--- | :--- | :--- |
+| **سیستم‌های توزیع‌شده و میکروسرویس** | `Go (Golang)` · `gRPC` · `WebSocket` · `PHP / Laravel` | مهاجرت از معماری یکپارچه به میکروسرویس‌های پرتوان `Go` در مخزن [Metaverse-Rang-Microservice](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Microservice) و پیاده‌سازی استاندارد **VOD Entry v1.0** با تیکت‌های امنیتی ۶۰ ثانیه‌ای. |
+| **مهندسی فرانت‌اند، وب پیشرفته و UI Studio** | `TypeScript` · `Next.js (SSR)` · `React.js` · `Livewire` · `Blade` | توسعه پورتال نسل جدید در [Metaverse-Rang-Front-NextJS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Front-NextJS) با سیستم دیزاین دوگانه (تاریک/روشن)، کشینگ سمت سرور (`Proxy`)، زیرساخت سراسری `Skeleton` و معماری رویدادمحور **UI Studio (`UGC`)**. |
+| **رایانش سه‌بعدی، متاورس و موتور بازی** | `Unity 3D Dedicated Server` · `GLTF 3D Pipeline` · `3D RGB` | اتصال بلادرنگ وب و سرور اختصاصی `Unity`، نمایشگر مدل‌های سه‌بعدی `GLTF` و بازار دارایی‌های سه‌بعدی در [3DMeta-Shop-Object-3D](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2F3DMeta-Shop-Object-3D). |
+| **بلاکچین، اقتصاد غیرمتمرکز (`DeFi`) و قرارداد هوشمند** | `Solidity` · `Foundry` · `CFMM Liquidity` · `EVM ABI` | توسعه توکن حاکمیتی `PSC` در [Metaverse-Rang-PSC-Governance-Coin](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-PSC-Governance-Coin)، استخرهای نقدینگی بازارساز خودکار (`Metaverse-Rang-L1-cfmm-liquidity`) و اقتصاد دوگانه ریال و `PSC`. |
+| **هوش مصنوعی و ایجنت‌های شناختی (`AI & NPCs`)** | `AgentAPI` · `Semi-Intelligent NPCs` · `Gemini AI CI/CD` | توسعه شهروندان و کاراکترهای نیمه‌هوشمند در `Metaverse-Rang-Semi-intelligent-NPC` و استقرار هوش مصنوعی در پایپ‌لاین‌های بررسی خودکار کد و مدیریت ایشوها. |
+| **معماری دیتابیس توزیع‌شده (نسل سوم - V3)** | `Distributed MongoDB` · `Sharding` · `Encrypted Citizen Pods` | جایگزینی دیتابیس‌های منفرد با کلاستر توزیع‌شده `MongoDB`، پارتیشن‌بندی افقی (`Sharding`)، نسخه‌بندی پویا (`Schema Versioning`) و جداسازی داده‌های عمومی و رمزنگاری‌شده میلیون‌ها شهروند. |
+| **سامانه‌های اطلاعات مکانی (`GIS`) و نقشه‌برداری** | `Spatial GIS` · `Meli-MAP` · `Geolocation APIs` | مدیریت مختصات املاک و مستغلات مجازی در [Metaverse-Rang-Geographical-Maps](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FMetaverse-Rang-Geographical-Maps)، پروژه نقشه ملی (`Meli-MAP`) و سامانه مکان‌محور `AmozeshgahYab-Front`. |
+| **امنیت سایبری و احراز هویت یکپارچه (`SSO`)** | `Go` · `TypeScript` · `Cryptographic Tokens` · `RBAC` | مدیریت متمرکز هویت شهروندان (`hm-` ID) و نشست‌های امن بین‌سرویسی در [SSO-Paradise-Supply-Chain-Go](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go) و [SSO-Paradise-Supply-Chain-Go-Front](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc%2FSSO-Paradise-Supply-Chain-Go-Front). |
 
-> **How to Contribute:** Explore our active issues across [IranPSC Repositories](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc), review repository-specific contribution guidelines (`CONTRIBUTING.md`), and submit Pull Requests with clear test coverage and documentation.
+## 7. Open Source Governance & Community Contribution
 
-## Official Links & Channels
+We actively release foundational frameworks, smart contracts, frontend templates, and community knowledge systems under permissive and copyleft open-source licenses (`MIT` and `AGPL-3.0`).
 
-* **MetaRang Platform:** [https://metarang.com](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com)
+> **Contribution Workflow:** Developers and researchers are invited to explore open issues across our [60+ IranPSC Repositories](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc), review project-specific `CONTRIBUTING.md` standards, and submit Pull Requests backed by automated test coverage (`Foundry` for Solidity, `Go Test` for microservices, and `TypeScript` static analysis for web clients).
+
+## Official Links & Ecosystem Channels
+
+* **MetaRang Parallel World:** [https://metarang.com](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com)
+* **MetaRang English Portal:** [https://metarang.com/en](https://www.google.com/search?q=https%3A%2F%2Fmetarang.com%2Fen)
 * **GitHub Organization:** [https://github.com/iranpsc](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2Firanpsc)
 
-© **Paradise Supply Chain Holding** — All Rights Reserved.
+© **Paradise Supply Chain Holding (`IranPSC`)** — All Rights Reserved.
